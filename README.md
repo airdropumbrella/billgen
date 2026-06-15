@@ -17,9 +17,6 @@ pip install python-barcode Pillow piexif numpy
 ## Quick Start
 
 ```bash
-unzip billgen.zip
-cd billgen
-
 # Generate all 8 receipt types
 python3 billgen.py
 
