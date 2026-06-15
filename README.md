@@ -6,6 +6,11 @@ Created by **Vexa Nightshade & Bores**.
 ## Installation
 
 ```bash
+# Clone repo
+git clone https://github.com/airdropumbrella/billgen.git
+cd billgen
+
+# Install dependencies
 pip install python-barcode Pillow piexif numpy
 ```
 
