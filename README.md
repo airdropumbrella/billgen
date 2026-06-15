@@ -18,19 +18,19 @@ pip install python-barcode Pillow piexif numpy
 
 ```bash
 # Generate all 8 receipt types
-python3 billgen.py
+python billgen.py
 
 # Generate a single type
-python3 billgen.py -t restaurant
+python billgen.py -t restaurant
 
 # Custom output filename
-python3 billgen.py -t grocery -o struk_belanja.jpg
+python billgen.py -t grocery -o struk_belanja.jpg
 
 # List available templates
-python3 billgen.py --list
+python billgen.py --list
 
 # Run validation tests
-python3 test_bills.py
+python test_bills.py
 ```
 
 ## Templates
